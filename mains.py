@@ -8,7 +8,7 @@ st.markdown('markdown')
 st.code("""print("Welcome to Streamlit Class")""")
 st.code("""for i in range(1,5,1): 
 	print("java")""")
-dataset = pd.read_csv("titanic.csv")
+dataset = pd.read_csv("streamlit/titanic.csv")
 st.dataframe(dataset)
 
 name = st.text_input("enter your name:")
@@ -24,6 +24,7 @@ if button:
     class:{classdata} """)
 
 number = st.slider("pick a number", 0, 100)
+
 
 
 
